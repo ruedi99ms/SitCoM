@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 149ce548fd0cbbc4f9957f9cac93f10e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - contentContainerScenario: {instanceID: 0}
+  - contentContainerImpact: {instanceID: 0}
+  - buttonPrefab: {fileID: 8339404273723450553, guid: be247bc41c16ff74898ab00e8b550b23, type: 3}
+  - bt_Back: {instanceID: 0}
+  - bt_Run: {instanceID: 0}
+  - bt_DelScenarios: {instanceID: 0}
+  - bt_DelImpacts: {instanceID: 0}
+  - input_StartTime: {instanceID: 0}
+  - input_EndTime: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

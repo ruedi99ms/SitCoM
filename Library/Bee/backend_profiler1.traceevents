@@ -1,0 +1,580 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702474929697256, "dur":1715, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474929698985, "dur":118, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1702474929699155, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1702474929699183, "dur":667, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1702474929699889, "dur":1119, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474929701008, "dur":3, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646385, "dur":375, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646761, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646774, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646777, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646787, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646789, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646795, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646797, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646803, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646804, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646810, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646812, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646818, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646820, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646826, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646827, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646832, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646834, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646840, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646842, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646849, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646851, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646857, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646858, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646867, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646895, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931646911, "dur":2106, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702474929702412, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474929702414, "dur":9441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474929711858, "dur":48385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702474929760260, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474929760766, "dur":6599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1702474929767728, "dur":196033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474929963770, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474929963784, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474929966373, "dur":68800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930035180, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930035192, "dur":1301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930036523, "dur":44114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930080643, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930080655, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930082922, "dur":2079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930085007, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930085020, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930086657, "dur":1281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930087943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930087952, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleMacosStub.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930089790, "dur":40829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930130627, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930130643, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930132801, "dur":31684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930164490, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930164500, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930166336, "dur":115375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930281715, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930281722, "dur":938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930282694, "dur":35653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930318355, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930318366, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930320172, "dur":162409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930482591, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930482609, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930486210, "dur":232954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930719169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930719179, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930720778, "dur":93911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930814698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474930814713, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474930816272, "dur":221687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474931037967, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474931037979, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474931039809, "dur":481014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474931520832, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702474931520845, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1702474931523383, "dur":123008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929701418, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929701420, "dur":10176, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929711618, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1702474929711628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929714800, "dur":1791, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1702474929716603, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1702474929716859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929717487, "dur":11751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1702474929729245, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702474929730565, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929730778, "dur":7076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1702474929737974, "dur":7514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929745505, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929746940, "dur":6271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929754047, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1702474929754671, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929756444, "dur":15153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1702474929771700, "dur":134127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929905832, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929905840, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929907217, "dur":87673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929994900, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474929994915, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474929996599, "dur":88901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930085505, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930085515, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930087226, "dur":79966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930167197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930167208, "dur":1348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.AppleCore.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930168590, "dur":38021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930206622, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930206640, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930207833, "dur":26535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930234375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930234392, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930236032, "dur":61169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930297207, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930297218, "dur":5526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930302802, "dur":60528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930363339, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930363386, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930365551, "dur":1373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930366929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474930366939, "dur":952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474930367919, "dur":763118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474931131048, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702474931131064, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1702474931132499, "dur":513913, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929701713, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929701715, "dur":10219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929711935, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1702474929712244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929722775, "dur":9102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1702474929731991, "dur":334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1702474929732337, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929732360, "dur":10466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1702474929742991, "dur":144673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM.exe" }}
+,{ "pid":12345, "tid":3, "ts":1702474929887671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929887679, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM.exe" }}
+,{ "pid":12345, "tid":3, "ts":1702474929889529, "dur":81207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474929970741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929970751, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474929971926, "dur":23126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474929995059, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474929995071, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474929996903, "dur":70431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930067342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930067352, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930068783, "dur":1494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930070284, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930070297, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.WinRTStub.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930072144, "dur":1045, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930073194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930073203, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.WinRTCore.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930074412, "dur":157521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930231939, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930231949, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.Stores.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930233483, "dur":31935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930265426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930265437, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930266974, "dur":120439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930387420, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930387444, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930390126, "dur":326340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930716481, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474930716506, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474930718428, "dur":402386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474931120821, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702474931120833, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1702474931122434, "dur":523975, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929703668, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929703669, "dur":8001, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929711683, "dur":3607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1702474929715301, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929723790, "dur":17801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1702474929741882, "dur":10971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702474929752872, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929752983, "dur":7478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1702474929760642, "dur":150079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474929910731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474929910746, "dur":2920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474929913704, "dur":251412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930165119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930165128, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930168113, "dur":26118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930194238, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930194250, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930195543, "dur":56247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930251797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930251809, "dur":1562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930253411, "dur":21427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930274844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930274884, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930276776, "dur":183047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930459834, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930459850, "dur":2300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930462191, "dur":259261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930721457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474930721467, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474930723081, "dur":361393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474931084481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702474931084493, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1702474931086379, "dur":560017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929701993, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929701994, "dur":9928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929711929, "dur":48415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1702474929760364, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929761087, "dur":6907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1702474929768111, "dur":55131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474929823254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929823665, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474929825036, "dur":104394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474929929439, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474929929454, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474929931364, "dur":86614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930017985, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930017997, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930019675, "dur":36327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930056010, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930056024, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930057780, "dur":178731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930236517, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930236552, "dur":1635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930238234, "dur":41525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930279764, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930279776, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930281577, "dur":43814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930325397, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930325409, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930326841, "dur":155778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930482629, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930482644, "dur":3314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930486000, "dur":109351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930595361, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930595378, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930597610, "dur":183230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930780849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474930780865, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474930782435, "dur":270669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474931053108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474931053116, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1702474931056024, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702474931056097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474931056144, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1702474931058140, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1702474931058279, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474931058289, "dur":1006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1702474931059318, "dur":13606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702474931072931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702474931072944, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1702474931074927, "dur":571458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929702355, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929702356, "dur":9264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929711621, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702474929711839, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929723272, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702474929727542, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702474929727929, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929729015, "dur":5052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1702474929734205, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1702474929734590, "dur":17, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929734626, "dur":5210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1702474929740001, "dur":44411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929784565, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929784862, "dur":8714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929793657, "dur":75507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929869208, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929869220, "dur":2148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929871408, "dur":30828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929902243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929902283, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929904112, "dur":46521, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929950641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474929950653, "dur":1511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474929952201, "dur":152850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930105057, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930105067, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930106682, "dur":62987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930169673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930169681, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930170861, "dur":41089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930211973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930211982, "dur":1200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930213214, "dur":46493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930259717, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930259735, "dur":1823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930261597, "dur":35205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930296813, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930296828, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930301736, "dur":63513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930365254, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930365263, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930366370, "dur":106455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930472835, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474930472892, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474930475734, "dur":564343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474931040082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931040091, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":6, "ts":1702474931043714, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1702474931043883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931044439, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1702474931045890, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1702474931045954, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931045987, "dur":1036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047051, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047081, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047086, "dur":779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047890, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931047922, "dur":759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931048707, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931048733, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931048738, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931049455, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931049481, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931049485, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931051653, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931051682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931051689, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931052800, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931052837, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931052844, "dur":7518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931060385, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931060411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931060416, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931061445, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931061470, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931061474, "dur":731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931062228, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1702474931062254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931062259, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1702474931063018, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1702474931063059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931063065, "dur":1112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level2" }}
+,{ "pid":12345, "tid":6, "ts":1702474931064219, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1702474931064260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931064267, "dur":1061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level1" }}
+,{ "pid":12345, "tid":6, "ts":1702474931065367, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931065439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931065446, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1702474931066775, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1702474931066894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931066903, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1702474931068010, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931068046, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931068052, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1702474931069734, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1702474931069771, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931069786, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1702474931071078, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1702474931071172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702474931071178, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1702474931071929, "dur":574488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929702690, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929702692, "dur":9172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929711868, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1702474929712036, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929722703, "dur":6314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1702474929729174, "dur":45551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1702474929774736, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929774759, "dur":3285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1702474929778139, "dur":114025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474929892172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474929892183, "dur":1570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474929893791, "dur":133347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930027147, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930027164, "dur":2248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930029437, "dur":366998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930396448, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930396471, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930398292, "dur":732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930399027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930399034, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930400617, "dur":52346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930452967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930452975, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930455165, "dur":4851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930460029, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930460050, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930462217, "dur":1719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930463940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930463948, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930465725, "dur":204987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930670727, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930670751, "dur":1738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930672520, "dur":78957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930751484, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474930751496, "dur":1212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474930752743, "dur":422608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474931175358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702474931175369, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1702474931179652, "dur":466741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929702893, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929702895, "dur":8901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929711799, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1702474929711941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929723425, "dur":11639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1702474929735183, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1702474929735459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929735481, "dur":6169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1702474929741829, "dur":92275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474929834111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929834121, "dur":17320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474929851479, "dur":37162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474929888646, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474929888655, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474929890189, "dur":109834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930000030, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930000041, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930001448, "dur":78712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930080164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930080174, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930081616, "dur":115893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930197521, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930197542, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930198961, "dur":177983, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930376955, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930376971, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930379375, "dur":69270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930448698, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930448718, "dur":2691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930451451, "dur":1291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930452748, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930452759, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930454609, "dur":75714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930530334, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930530351, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930532306, "dur":330005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930862317, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474930862355, "dur":1576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474930863971, "dur":175502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474931039481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474931039492, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474931041139, "dur":99403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474931140551, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702474931140562, "dur":1346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1702474931141937, "dur":504492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929703183, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929703184, "dur":8575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929711764, "dur":3509, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1702474929715284, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929723214, "dur":7266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1702474929730593, "dur":53278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1702474929783882, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929783905, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1702474929787107, "dur":39211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474929826323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474929826470, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474929827791, "dur":179747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930007548, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930007563, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930009765, "dur":35073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930044844, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930044853, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930046223, "dur":32496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930078723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930078733, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930079872, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930081045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930081053, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.SecurityCore.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930082374, "dur":59154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930141535, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930141548, "dur":1452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.Codeless.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930143040, "dur":87497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930230549, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930230568, "dur":1914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930232517, "dur":91883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930324408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930324422, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930325935, "dur":56822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930382762, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930382770, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930384823, "dur":10435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930395268, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930395285, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930397716, "dur":398918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930796641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474930796652, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474930797876, "dur":354831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474931152715, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702474931152729, "dur":1261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1702474931154028, "dur":492392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474929703837, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474929703839, "dur":7806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474929711655, "dur":55597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1702474929767266, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474929767935, "dur":5731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1702474929773745, "dur":163557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474929937310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474929937321, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474929938734, "dur":87878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930026621, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930026636, "dur":2372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930029038, "dur":48128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930077173, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930077185, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930078474, "dur":45237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930123720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930123733, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Purchasing.SecurityStub.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930125515, "dur":92299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930217820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930217831, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930219576, "dur":35274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930254856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930254867, "dur":1395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930256298, "dur":232708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930489017, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930489034, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930492365, "dur":361723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930854094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930854102, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930855500, "dur":46851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930902359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474930902368, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Purchasing.Common.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474930903731, "dur":736731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474931640467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702474931640477, "dur":5813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702474931646320, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":10, "ts":1702474931646323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929703393, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929703395, "dur":8292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929711693, "dur":56633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1702474929768335, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929768379, "dur":5254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1702474929773738, "dur":122384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474929896128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929896139, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474929897736, "dur":41217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474929938960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474929939075, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474929941292, "dur":415238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474930356539, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474930356556, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474930358699, "dur":400569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474930759279, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474930759296, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474930761818, "dur":409900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474931171726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702474931171738, "dur":3537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702474931175374, "dur":471014, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929703980, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929703981, "dur":7636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929711632, "dur":124989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1702474929836984, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929837983, "dur":2140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1702474929840172, "dur":35126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474929875308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929875323, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474929876763, "dur":39365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474929916137, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474929916153, "dur":1644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474929917841, "dur":241188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930159039, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930159057, "dur":2819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930161927, "dur":52453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930214384, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930214393, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930216353, "dur":44545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930260906, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930260920, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930262866, "dur":34028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930296899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930296908, "dur":5508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930302459, "dur":304478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930606946, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930606963, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930609557, "dur":162384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930771975, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930771986, "dur":2730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930774813, "dur":81927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930856746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474930856757, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474930857826, "dur":256844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474931114708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702474931114721, "dur":1915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/suhre/Desktop/sitcom standalone test/SitCoM_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702474931116668, "dur":529748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702474931651069, "dur":5950, "ph":"X", "name": "ProfilerWriteOutput" }
+,

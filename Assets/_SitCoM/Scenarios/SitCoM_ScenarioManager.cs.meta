@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 2dac3ca297348a943b7f3622fc91b0d1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - world: {instanceID: 0}
+  - trafficCone: {fileID: 1917410729071824, guid: f027f37a9d1d9be41834223199c17fa3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
