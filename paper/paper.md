@@ -11,8 +11,8 @@ tags:
     - resilience
 authors:
     - name: Niklas Suhre
-    orcid: 0009-0006-4168-1115
-    affiliation: 1
+      orcid: 0009-0006-4168-1115
+      affiliation: 1
 affiliations:
     - name: Technical University of Darmstadt, Germany
 bibliography: paper.bib
@@ -51,7 +51,7 @@ even for people without coding experience.
 
 The impact side of SitCoM can especially be used for the testing of technological solutions
 under different circumstances. By creating a digital twin of a solution and implementing its behavior
-during an impact, the functionality can be evaluated. As impacts can differ greatly (e.g., electrical outages, physical damage, etc.), it is not possible to provide a manual for this. Hence, coding experience is required for this step.
+during an impact, the functionality can be evaluated afterwards. As impacts can differ greatly (e.g., electrical outages, physical damage, etc.), it is not possible to provide a manual for this. Hence, coding experience is required for this step.
 
 The main advantage of SitCoM is, that the user can select the scenarios and/or impacts that should occur
 in the virtual world before starting. Hence, a large variety of combinations can be created and used for
@@ -62,7 +62,7 @@ can be hurricanes, tornados, etc. Therefore, SitCoM does not couple scenarios an
 
 # Examples
 
-SitCoM was tested in the virtual city of Spectra [@Rzepecki.2023]. As the Unity version of the city is not available to the public, only
+SitCoM was tested in the virtual city of [Spectra](www.spectracities.com) [@Rzepecki.2023]. As the Unity version of the city is not available to the public, only
 screenshots can be provided. Due to the stand-alone character of SitCoM, the functionalities can be ensured for
 Unity projects in the correct version.
 
