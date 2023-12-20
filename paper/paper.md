@@ -58,7 +58,7 @@ in the virtual world before starting. Hence, a large variety of combinations can
 research. This is important for scenarios that can have various forms or impacts. E.g., extreme wind events
 can be hurricanes, tornados, etc. Therefore, SitCoM does not couple scenarios and impacts.
 
-![](run_scenario.PNG){width=80%}
+![](run_scenario.PNG)
 
 # Examples
 
@@ -67,12 +67,12 @@ screenshots can be provided. Due to the stand-alone character of SitCoM, the fun
 Unity projects in the correct version.
 
 As seen in the following pictures, a construction site scenario has been implemented and started in SitCoM:
-![](construction_site_off.PNG){width=80%}
-![](construction_site_on.PNG){width=80%}
+![](construction_site_off.PNG)
+![](construction_site_on.PNG)
 
 The impact for testing SitCoM is the electrical outage of streetlights:
-![](streetlights_on.PNG){width=80%}
-![](streetlights_off_with_marking.png){width=80%}
+![](streetlights_on.PNG)
+![](streetlights_off_with_marking.png)
 
 # Acknoledgements
 
