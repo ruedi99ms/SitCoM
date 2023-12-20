@@ -74,7 +74,7 @@ The impact for testing SitCoM is the electrical outage of streetlights:
 ![](streetlights_on.PNG)
 ![](streetlights_off_with_marking.png)
 
-# Acknoledgements
+# Acknowledgements
 
 This work has been made possible through the support of NUMENA and Spectra Cities.
 
