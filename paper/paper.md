@@ -39,7 +39,7 @@ The main advantage of SitCoM is, that the user can select the scenarios and/or i
 
 # Examples
 
-SitCoM was tested in the virtual city of [Spectra](www.spectracities.com) [@Rzepecki.2023]. As the Unity version of the city is not available to the public, only screenshots can be provided. Due to the stand-alone character of SitCoM, the functionalities can be ensured for Unity projects in the correct version.
+SitCoM was tested in the virtual city of [Spectra](www.spectracities.com) [@Rzepecki.2023]. As the Unity version of the city is currently not available to the public, only screenshots can be provided. Due to the stand-alone character of SitCoM, the functionalities can be ensured for other Unity projects in the correct version.
 
 As seen in the following pictures, a construction site scenario has been implemented and started in SitCoM:
 ![](images/construction_site_off.PNG)
@@ -59,6 +59,6 @@ This work has been made possible through the support of NUMENA and Spectra Citie
 
 Funded by the European Union (ERC, scAInce, 101087218). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Council Executive Agency. Neither the European Union nor the granting authority can be held responsible for them.
 
-![](erc_logo.png)
+![](images/erc_logo.png)
 
 # References
