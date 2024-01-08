@@ -42,15 +42,21 @@ The main advantage of SitCoM is, that the user can select the scenarios and/or i
 SitCoM was tested in the virtual city of [Spectra](www.spectracities.com) [@Rzepecki.2023]. As the Unity version of the city is currently not available to the public, only screenshots can be provided. Due to the stand-alone character of SitCoM, the functionalities can be ensured for other Unity projects in the correct version.
 
 As seen in the following pictures, a construction site scenario has been implemented and started in SitCoM:
+
 ![City before construction site scenario](images/construction_site_off.PNG)
+
 ![City during construction site scenario](images/construction_site_on.PNG)
 
 The impact for testing SitCoM is the electrical outage of streetlights:
+
 ![Streetlights before power outage](images/streetlights_on.PNG)
+
 ![Streetlights during power outage](images/streetlights_off_with_marking.png)
 
 The construction site scenario and electrical outage impact were tested simultaneously as well:
+
 ![City before construction site scenario and power outage](images/scenario_and_impact_off.PNG)
+
 ![City during construction site scenario and power outage](images/scenario_and_impact_on.PNG)
 
 # Acknowledgements
