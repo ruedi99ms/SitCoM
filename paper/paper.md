@@ -13,10 +13,10 @@ authors:
     - name: Niklas Suhre
       orcid: 0009-0006-4168-1115
       affiliation: 1
+bibliography: paper.bib
 affiliations:
     - name: Technical University of Darmstadt, Germany
       index: 1
-bibliography: paper.bib
 ---
 
 # Summary
@@ -27,7 +27,7 @@ Given the increasing prevalence of extreme events due to climate change, it beco
 
 As extreme events are a growing trend due to climate change [@Francis.1998; @Huber.2011], it is important, to understand their effects on anthropogenic environments. These effects can only be on monetary level, but also e.g., physical damage to humans and other lifeforms. [@Jentsch.2007] Therefore, it is imperative to develop and evaluate appropriate countermeasures for the mitigation and withstanding of these events.
 
-Currently, there is no wholistic approach for simulations of extreme events in virtual environments, but only stand-alone simulations of single (extreme) events (e.g., @Morelli.2021). SitCoM is a modular framework for the game engine Unity (Version: 2021.3.6f1), which enables researchers to integrate and run customized scenarios and impacts."Scenario" refers to a visual representation of an event, while "impact" is an effect on objects in the environment.
+Currently, there is no wholistic approach for simulations of extreme events in virtual environments, but only stand-alone simulations of single (extreme) events (e.g., @Morelli.2021). The Situation Control Menu SitCoM is a modular framework for the game engine Unity (Version: 2021.3.6f1), which enables researchers to integrate and run customized scenarios and impacts."Scenario" refers to a visual representation of an event, while "impact" is an effect on objects in the environment.
 
 The visual simulation of events is useful for public participation. This especially applies to combined usage with Virtual Reality (VR). Partipicants then can experience an event immersively and express their opinion well considered. Feasibility tests showed, that the integration of scenarios is easy even for people without coding experience.
 
@@ -42,16 +42,16 @@ The main advantage of SitCoM is, that the user can select the scenarios and/or i
 SitCoM was tested in the virtual city of [Spectra](www.spectracities.com) [@Rzepecki.2023]. As the Unity version of the city is currently not available to the public, only screenshots can be provided. Due to the stand-alone character of SitCoM, the functionalities can be ensured for other Unity projects in the correct version.
 
 As seen in the following pictures, a construction site scenario has been implemented and started in SitCoM:
-![](images/construction_site_off.PNG)
-![](images/construction_site_on.PNG)
+![City before construction site scenario](images/construction_site_off.PNG)
+![City during construction site scenario](images/construction_site_on.PNG)
 
 The impact for testing SitCoM is the electrical outage of streetlights:
-![](images/streetlights_on.PNG)
-![](images/streetlights_off_with_marking.png)
+![Streetlights before power outage](images/streetlights_on.PNG)
+![Streetlights during power outage](images/streetlights_off_with_marking.png)
 
 The construction site scenario and electrical outage impact were tested simultaneously as well:
-![](images/scenario_and_impact_off.PNG)
-![](images/scenario_and_impact_on.PNG)
+![City before construction site scenario and power outage](images/scenario_and_impact_off.PNG)
+![City during construction site scenario and power outage](images/scenario_and_impact_on.PNG)
 
 # Acknowledgements
 
